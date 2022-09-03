@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+    <item
+        android:id="@+id/id_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard"
+        android:checked="true"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/id_rating"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="Rating"
+        android:checkable="true"/>
+    <item
+        android:id="@+id/id_notif"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification"
+        android:checkable="true"/>
+
+    </group>
+
+</menu>
